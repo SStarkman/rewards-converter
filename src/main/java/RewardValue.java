@@ -23,9 +23,20 @@ public class RewardValue {
         }
     }
 
+ // Methods
+
+    /**
+     * This method will get the cash value
+     * @return cash value of the mileage amount
+     */
     public double getCashValue(){
         return this.cash;
     }
+
+    /**
+     * This method will get the miles value
+     * @return mile value of cash amount
+     */
     public double getMilesValue(){
         return this.miles;
     }
