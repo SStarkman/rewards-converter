@@ -20,6 +20,7 @@ public class RewardValueTests {
 
     @Test
     void convert_from_cash_to_miles() {
+        // convert $100 cash value to miles
         double cashValue = 100;
         double milesValue = cashValue / 0.0035;
         var rewardValue = new RewardValue(cashValue);
@@ -28,6 +29,7 @@ public class RewardValueTests {
 
     @Test
     void convert_from_miles_to_cash() {
+        // Convert 10000 miles to cash value
         int milesValue = 10000;
         double cashValue = milesValue * 0.0035;
         var rewardValue = new RewardValue(milesValue);
